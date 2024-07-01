@@ -1,0 +1,18 @@
+{
+  "name": "roleauth",
+  "version": "1.0.0",
+  "description": "![GitHub all releases](https://img.shields.io/github/downloads/babahasko/Making_README/total?logo=GitHub)![GitHub watchers](https://img.shields.io/github/watchers/babahasko/Making_README?logo=GitHub)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "winston": "^3.13.0"
+  }
+}
