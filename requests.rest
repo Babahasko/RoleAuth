@@ -1,5 +1,5 @@
 GET http://localhost:5000/auth/users
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODZmYjdiYjE1MzBlNTU5MjliNDQ1YSIsInJvbGVzIjpbImFkbWluIl0sImlhdCI6MTcyMDEyNDU2OCwiZXhwIjoxNzIwMjEwOTY4fQ.Y757nnkovFbS_OykPsa9Pm3qSBJkAzeSRSQT09noZC0
 ###
 
 POST http://localhost:5000/auth/registration
@@ -16,6 +16,6 @@ POST http://localhost:5000/auth/login
 Content-Type: application/json
 
 {
-  "username": "Dan",
-  "password": "tartilik1"
+  "username": "admin",
+  "password": "admin"
 }
